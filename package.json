@@ -1,0 +1,27 @@
+{
+  "name": "lib-validate",
+  "version": "1.0.0",
+  "description": "A validation library written by javascript",
+  "main": "min/lib-validate.min.js",
+  "scripts": {
+    "start": "webpack -p --mode production --config webpack.config.js --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeMiaoQ/commonValidate.git"
+  },
+  "keywords": [
+    "validate",
+    "regex"
+  ],
+  "author": "HeMiaoqing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeMiaoQ/commonValidate/issues"
+  },
+  "homepage": "https://github.com/HeMiaoQ/commonValidate#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
